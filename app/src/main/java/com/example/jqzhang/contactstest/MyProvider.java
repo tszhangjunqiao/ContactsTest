@@ -11,6 +11,7 @@ import android.net.Uri;
 public class MyProvider extends ContentProvider {
     @Override
     public boolean onCreate(){
+        String a = "test";
         return false;
     }
 
